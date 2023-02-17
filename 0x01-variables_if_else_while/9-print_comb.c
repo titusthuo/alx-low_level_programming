@@ -13,7 +13,7 @@ int main(void)
 		putchar(k);
 		if (k != 57)
 		{
-			putchar('.');
+			putchar(',');
 			putchar(' ');
 		}
 	}
