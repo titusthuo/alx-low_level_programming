@@ -4,6 +4,7 @@
 
 /**
  * main - Entry point of the program
+ *
  * Return: Always 0 (Success)
  */
 int main(void)
@@ -12,8 +13,8 @@ int main(void)
 	int b;
 	int c;
 
-	c = '0';
-	while (c <= '9')
+	a = '0';
+	while (a <= '9')
 	{
 		b = a + 1;
 		while (b <= '9')
@@ -27,7 +28,7 @@ int main(void)
 
 				putchar(c);
 
-				if (c != '7')
+				if (a != '7')
 				{
 					putchar(',');
 
