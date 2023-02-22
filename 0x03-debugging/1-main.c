@@ -13,7 +13,7 @@ int main(void)
 
 	i = 0;
 
-	/*
+	/**
 	 * whiile (i < 10)
 	 * {
 	 * putchar(i);
