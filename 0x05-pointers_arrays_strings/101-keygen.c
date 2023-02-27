@@ -10,8 +10,8 @@
  */
 int main(void)
 {
-	int pass[100];
 	int i, sum, n;
+	int pass[100];
 
 	sum = 0;
 
