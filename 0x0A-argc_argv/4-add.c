@@ -1,0 +1,32 @@
+#include <stdio.h>
+#include <stdlib.h>
+
+/**
+ * main - adds positive numbers
+ * @argc: number of arguments
+ * @argv: array of arguments
+ *
+ * Return: Always 0 (Success)
+ */
+int main(int argc, char **argv)
+{
+	int i, n, sum = 0;
+	char *flag;
+
+	if (argc < 2)
+	{
+		n = strtol(argv[i], &flag, 10);
+		if (*flag)
+		{
+			printf("error\n");
+			return (1);
+		}
+		else
+		{
+			sum += n;
+		}
+	}
+	printf("%d\n", sum);
+
+	return (0);
+}
