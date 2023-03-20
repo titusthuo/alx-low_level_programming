@@ -9,9 +9,9 @@
  */
 int main(void)
 {
-	int j;
+	int s;
 
-	j = 98 + SIZE;
-	printf("%d\n", j);
+	s = 98 + SIZE;
+	printf("%d\n", s);
 	return (0);
 }
